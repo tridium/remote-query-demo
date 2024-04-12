@@ -1,0 +1,4 @@
+<types>
+  <!--com.example.remoteQuery-->
+  <type class="com.example.remoteQuery.BRemoteQuery" name="RemoteQuery"/>
+</types>

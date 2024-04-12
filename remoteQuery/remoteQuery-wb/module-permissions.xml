@@ -1,0 +1,23 @@
+<permissions>
+  <java-permissions type="all">
+    <java-permission action="read" class="java.util.PropertyPermission" name="*"/>
+    <java-permission class="java.util.logging.LoggingPermission" name="control"/>
+    <java-permission class="com.tridium.nre.security.NiagaraBasicPermission" name="SET_EXEMPTION_APPROVER"/>
+    <java-permission class="java.lang.RuntimePermission" name="getClassLoader"/>
+    <java-permission class="com.tridium.nre.security.KeyStorePermission" name="*" action="all"/>
+  </java-permissions>
+  <java-permissions type="workbench">
+    <!-- Insert any workbench specific permissions here. -->
+  </java-permissions>
+  <java-permissions type="station">
+    <!--<req-permission>-->
+    <!--<name>NETWORK_COMMUNICATION</name>-->
+    <!--<purposeKey>Outside access for Driver</purposeKey>-->
+    <!--<parameters>-->
+      <!--<parameter name="hosts" value="127.0.0.1"/>-->
+      <!--<parameter name="ports" value="*"/>-->
+      <!--<parameter name="type" value="all"/>-->
+    <!--</parameters>-->
+    <!--</req-permission>-->
+  </java-permissions>
+</permissions>

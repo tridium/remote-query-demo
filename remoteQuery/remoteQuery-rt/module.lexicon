@@ -1,0 +1,13 @@
+#
+# Lexicon for the remoteQuery module.
+#
+RemoteQueryFactory.displayName=Run BQL Query
+RemoteQueryFactory.icon=module://icons/x16/app.png
+RemoteQueryFactory.description=Enter a BQL query to run
+
+RemoteQueryStep.display=Run BQL query: {0}.
+RemoteQueryStep.start=BQl query started on target device {0}.
+RemoteQueryStep.connectionFailed=Fox connection failed for target device {0}.
+RemoteQueryStep.bqlFailed=Bql query failed for target device {0}.
+RemoteQueryStep.resultType=BQl query result type for target device {0} = {1}
+RemoteQueryStep.result=BQl query result for target device {0}\n{1}

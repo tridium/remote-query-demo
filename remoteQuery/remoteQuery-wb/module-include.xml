@@ -1,0 +1,10 @@
+<types>
+  <!--com.example.remoteQuery-->
+  <type class="com.example.remoteQueryJob.BRemoteQueryStep" name="RemoteQueryStep"/>
+  <!--com.example.remoteQuery.ui-->
+  <type class="com.example.remoteQueryJob.ui.BRemoteQueryFactory" name="RemoteQueryFactory">
+    <agent>
+      <on type="remoteQuery:RemoteQueryStep"/>
+    </agent>
+  </type>
+</types>
